@@ -1,0 +1,11 @@
+{
+	"cmake.buildDirectory": "${workspaceFolder}/build/vscode/${buildType}",
+	"cmake.installPrefix": "${workspaceFolder}/bin",
+	"cmake.parallelJobs": 16,
+	"cmake.preferredGenerators": [ "Ninja" ],
+	"cmake.buildArgs": [ "-v" ],
+	"cmake.configureOnEdit": false,
+	// "cmake.exportCompileCommandsFile": true,
+	// "cmake.copyCompileCommands": "${workspaceFolder}/build/vscode/${buildType}",
+	"sonarlint.pathToCompileCommands": "../build/vscode/${buildType}/compile_commands.json"
+}
